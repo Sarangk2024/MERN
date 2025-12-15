@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "A simple and responsive **Notes Application** built using **React** that allows users to create, view, edit, and delete notes.  \r The application communicates with a backend API using **Axios** and provides a clean UI with proper loading and error handling.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix BACKEND && npm i --prefix frontend && npm run build --prefix frontend",
+    "start":"npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarangk2024/MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarangk2024/MERN/issues"
+  },
+  "homepage": "https://github.com/Sarangk2024/MERN#readme"
+}
